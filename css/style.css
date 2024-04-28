@@ -1,20 +1,6 @@
 @charset "utf-8";
 
-/*	Copyright (c) 2021 marketify
-/*	Author: marketify
-/*	This file is made for CURRENT TEMPLATE
 
-01)	EDINA BASE
-02) EDINA MOBILE MENU
-03) EDINA SIDEBAR
-04) EDINA HERO
-05) EDINA ABOUT
-06) EDINA SERVICE
-07) EDINA PORTFOLIO
-08) EDINA TESTIMONIALS
-09) EDINA NEWS
-10) EDINA CONTACT
-11) EDINA MEDIA QUERIES (FOR SMALL DEVIVES)
 
 /*--------------------------------f-------------------*/
 /*	01) EDINA BASE
@@ -2516,3 +2502,8 @@ body.modal{
 	color: #7e7e7e;
 	font-size:large;
   }
+
+  .footer-text {
+    text-align: center;
+	font-size: small;
+}
