@@ -973,7 +973,7 @@ window.onclick = function(event) {
 <h3>Address:</h3>
 <ul class="in">
 <li>
-<p>Kalikanagar-12<br/> Butwal, Nepal</p>
+<p>Kalikanagar-12,<br/> Butwal, Nepal</p>
 </li>
 </ul>
 </div>
@@ -986,7 +986,7 @@ window.onclick = function(event) {
 <p>I'm always open to discussing product<br/><span>design work or partnerships.</span></p>
 </div>
 <div class="fields wow fadeInLeft" data-wow-duration="1s">
-<form action="send_message.php" method="post" class="contact_form" id="contact_form" autocomplete="off">
+<form action="https://formspree.io/f/mbjnwlza" method="post" class="contact_form" id="contact_form" autocomplete="off">
 <div class="returnmessage" data-success="Your message has been received, We will contact you soon."></div>
 <div class="empty_notice"><span>Please Fill Required Fields</span></div>
 <div class="first_row">
@@ -1031,13 +1031,42 @@ window.onclick = function(event) {
          loading="lazy" 
          referrerpolicy="no-referrer-when-downgrade"></iFrame> -->
 
+        <div class="arrow">
+          <a href="#"  id="scrollToTopBtn" title="Go to top"> &#8593; </a>
+        </div> 
          
-          
-          
+                 
          <footer>
           <div class="container">
               <p class="footer-text">Copyright 2024 &copy; Anisha Kharel</p>
           </div>
       </footer>
-</body>
+
+
+
+    <script>
+// Show/hide scroll to top button based on scroll position
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+  var windowHeight = window.innerHeight;
+
+  if (document.body.scrollTop > windowHeight || document.documentElement.scrollTop > windowHeight) {
+    scrollToTopBtn.style.display = "block";
+  } else {
+    scrollToTopBtn.style.display = "none";
+  }
+}
+
+// Scroll to top when button is clicked
+document.getElementById("scrollToTopBtn").addEventListener("click", function() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+});
+    </script>
+
+
+
+    </body>
 </html>

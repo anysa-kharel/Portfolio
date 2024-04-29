@@ -2507,3 +2507,36 @@ body.modal{
     text-align: center;
 	font-size: small;
 }
+
+/* Styles for the scroll to top button */
+
+
+#scrollToTopBtn {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display: inline-block;
+	width: 60px; /* Adjust width */
+	height: 60px; /* Adjust height */
+	line-height: 60px; /* Adjust line-height to vertically center text */
+	text-align: center;
+	background-color: #333;
+	color: #fff;
+	font-size: 24px;
+	border-radius: 20%; /* Use 50% for a circular button */
+	text-decoration: none;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+	transition: background-color 0.3s, box-shadow 0.3s, opacity 0.3s; /* Add smooth transition effects */
+  }
+  
+  #scrollToTopBtn:hover {
+	background-color: #555; /* Darker background color on hover */
+  }
+  
+  .arrow {
+	position: relative; /* Change position to relative */
+	margin-bottom: 20px; /* Add margin to create space between button and paragraph */
+  }
+  
+ 
+  
