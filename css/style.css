@@ -2541,10 +2541,10 @@ body.modal{
  
   
   .see_more {
-	/* position: absolute; */
-	top: 20px;
-	bottom: 20px; /* Adjust as needed */
-	right: 20px; /* Adjust as needed */
+	/* position: relative; */
+	/* margin-top: 500px; */
+	/* bottom: 20px; Adjust as needed */
+	/* right: 20px; Adjust as needed */
 	background-color: #333;
 	color: #fff;
 	padding: 10px 20px;
@@ -2553,9 +2553,9 @@ body.modal{
   }
 
   .see_more:hover {
-	top: 20px;
-	bottom: 20px; /* Adjust as needed */
-	right: 20px; /* Adjust as needed */
+	/* top: 20px; */
+	/* bottom: 20px; Adjust as needed */
+	/* right: 20px; Adjust as needed */
 	background-color: #eaeaea;
 	color: #333;
 	padding: 10px 20px;
